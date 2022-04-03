@@ -28,7 +28,7 @@ const Game = () => {
 					<p className="py-4">Click on a card to reveal the secret solution.</p>
 				</div>
 
-				<div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
+				<div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8 hover:cursor-pointer">
 					<div className="shadow-md shadow-teal-400 rounded-md py-5 hover:scale-110 duration-500">
 						<Card frontSide="9 * 6" backSide="54" />
 					</div>
